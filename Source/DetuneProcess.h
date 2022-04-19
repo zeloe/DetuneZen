@@ -35,7 +35,7 @@ public:
                             );
     std::unique_ptr<juce::dsp::DelayLine<float, juce::dsp::DelayLineInterpolationTypes::Linear>> delayLine1[2] ;
     std::unique_ptr<juce::dsp::DelayLine<float, juce::dsp::DelayLineInterpolationTypes::Linear>> delayLine2[2] ;
-   // std::unique_ptr<AR> AtRe[2];
+    std::unique_ptr<AR> AtRe[2];
 private:
    
     float phasor1;
